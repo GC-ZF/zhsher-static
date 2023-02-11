@@ -762,7 +762,7 @@ img {
 }
 
 /* 设置圆角 排除前三个挂载插件 */
-#recent-posts .recent-post-item:nth-child(1), #recent-posts .recent-post-item:nth-child(2), #recent-posts .recent-post-item:nth-child(3) {
+#recent-posts .recent-post-item:has(#github_container), #recent-posts .recent-post-item:has(#swiper_container), #recent-posts .recent-post-item:has(#catalog_magnet) {
     border-radius: 8px;
 }
 
