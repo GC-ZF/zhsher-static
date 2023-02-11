@@ -641,14 +641,14 @@ Toc：
 /* 鼠标样式 */
 /* 默认时 */
 body {
-    cursor: url(https://npm.elemecdn.com/npm/zhsher-static/blog/css/close.ico),
+    cursor: url(https://npm.elemecdn.com/zhsher-static/blog/css/close.ico),
     default;
 }
 
 /* 链接、图片 */
 a,
 img {
-    cursor: url(https://npm.elemecdn.com/npm/zhsher-static/blog/css/open.ico),
+    cursor: url(https://npm.elemecdn.com/zhsher-static/blog/css/open.ico),
     default;
 }
 
