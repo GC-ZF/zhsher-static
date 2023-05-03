@@ -49,7 +49,7 @@ function linkCom(type) {
 
 //友链随机传送
 function travelling() {
-    var fetchUrl = "https://fcircle.zhangshier.vip/randomfriend";
+    var fetchUrl = "https://fcircle.zhsher.cn/randomfriend";
     fetch(fetchUrl)
         .then(res => res.json())
         .then(json => {
