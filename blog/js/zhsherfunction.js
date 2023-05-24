@@ -82,7 +82,7 @@ function toforeverblog() {
         onActionClick: function (element) {
             //Set opacity of element to 0 to close Snackbar
             $(element).css('opacity', 0);
-            window.open(link, 'https://www.foreverblog.cn/go.html');
+            window.open('https://www.foreverblog.cn/go.html','_blank');
         }
     });
 }
