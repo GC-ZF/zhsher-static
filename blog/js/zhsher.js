@@ -327,7 +327,7 @@ var zhsher = {
         let d = zhsher.loadData('talk', 10);
         if (d) talk(d);
         else {
-            fetch('https://memos.itisn.cyou/api/memo?creatorId=2&tag=说说&limit=10').then(res => res.json()).then(data => { // 更改地址
+            fetch('https://memos.nesxc.com/api/memo?creatorId=2&tag=说说&limit=10').then(res => res.json()).then(data => { // 更改地址
                 data = toText(data.data)
                 talk(data);
                 zhsher.saveData('talk', data);
