@@ -2580,7 +2580,7 @@ div#author-info__sayhi {
 }
 
 #aside-content > .card-info {
-    background: #fff url(../Hexo_img/config/social_card.webp) top -24% center no-repeat;
+    background: #fff url(https://zhsher.cn/Hexo_img/config/social_card.webp) top -24% center no-repeat;
     position: relative
 }
 
