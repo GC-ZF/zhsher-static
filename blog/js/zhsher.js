@@ -328,7 +328,8 @@ var zhsher = {
         if (d) talk(d);
         else {
             fetch('https://memos.nesxc.com/api/v1/memo?creatorId=2&tag=说说&limit=10').then(res => res.json()).then(data => { // 更改地址
-                data = toText(data.data)
+                //小N处理 data = toText(data.data)
+                data = toText(data)
                 talk(data);
                 zhsher.saveData('talk', data);
             })

@@ -1,6 +1,6 @@
 {
   "name": "zhsher-static",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "zhsher static file",
   "main": "index.js",
   "scripts": {
